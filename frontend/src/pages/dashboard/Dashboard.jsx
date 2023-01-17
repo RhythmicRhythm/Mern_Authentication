@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import useRedirectLoggedOutUser from "../../customHook/useRedirectLoggedOutUser";
 
 const Dashboard = () => {

@@ -1,0 +1,22 @@
+{
+  "name": "mern_authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node backend/index.js",
+     "dev": "nodemon backend/index.js",
+     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RhythmicRhythm/Mern_Authentication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RhythmicRhythm/Mern_Authentication/issues"
+  },
+  "homepage": "https://github.com/RhythmicRhythm/Mern_Authentication#readme"
+}

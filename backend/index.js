@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const userRoute = require("./routes/userRoute");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-// const path = require("path");
+const path = require("path");
 const errorHandler = require("./middleWare/errorMiddleware");
 const app = express();
 
@@ -34,6 +34,16 @@ app.get("/", (req, res) => {
 
 //Error Middleware
 app.use(errorHandler);  
+
+// // heroku
+// if (process.env.NODE_ENV === "production") {
+//   app.use(express.static("../frontend/build"));
+//   app.get("*", (req, res) =>{
+//   res.sendFile(path.resolve(__dirname, "frontend", "build", "index.html"))
+//   })
+// }
+
+
 
 // Connect to DB and start server
 const PORT = process.env.PORT || 5000;
