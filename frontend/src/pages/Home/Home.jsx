@@ -1,5 +1,4 @@
 import React from "react";
-import { RiProductHuntLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import "./Home.scss";
 import { ShowOnLogin, ShowOnLogout } from "../../components/protect/HiddenLinks";
@@ -9,7 +8,7 @@ const Home = () => {
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          
         </div>
 
         <ul className="home-links">
@@ -38,10 +37,9 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Stock Management Solution</h2>
+          <h2>Rhythmic's Top Notch Authentication App</h2>
           <p>
-            Inventory system to control and manage proucts in the warehouse in
-            real timeand integrated to make it easier to develop your business.
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
           </p>
           <div className="hero-buttons">
             <button className="--btn --btn-secondary">
@@ -49,14 +47,14 @@ const Home = () => {
             </button>
           </div>
           <div className="--flex-start">
-            <NumberText num="14K" text="Brand Owners" />
-            <NumberText num="23K" text="Active Users" />
+            <NumberText num="15M" text="Subscribers" />
+            <NumberText num="11M" text="Active Users" />
             <NumberText num="500+" text="Partners" />
           </div>
         </div>
 
         <div className="hero-image">
-          <img src='' alt="Inventory" />
+          <img src='' alt="Rhythmic" />
         </div>
       </section>
     </div>
