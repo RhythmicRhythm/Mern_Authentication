@@ -5,8 +5,7 @@ const Dashboard = () => {
 
   return (
     <div>
-
-      welcome
+       Welcome, Thank you for choosing Rhythmic.dev
     </div>
   );
 };
