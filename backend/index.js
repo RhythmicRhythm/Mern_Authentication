@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 // cors 
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://rhythm-merna-backend.onrender.com"],
+    origin: ["http://localhost:3000", "https://rhythm-merna-frontend.onrender.com"],
     credentials: true,
   })
 );
